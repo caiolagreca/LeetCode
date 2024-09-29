@@ -17,7 +17,7 @@ Example 3:
 Input: nums = [3,3], target = 6
 Output: [0,1]
 
-Constraints:
+Constraints:`
 2 <= nums.length <= 104
 -109 <= nums[i] <= 109
 -109 <= target <= 109
