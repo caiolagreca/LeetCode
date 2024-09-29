@@ -1,0 +1,14 @@
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\twoSUM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\twoSUM.AssemblyInfoInputs.cache
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\twoSUM.AssemblyInfo.cs
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\twoSUM.csproj.CoreCompileInputs.cache
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\bin\Debug\net8.0\twoSUM.exe
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\bin\Debug\net8.0\twoSUM.deps.json
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\bin\Debug\net8.0\twoSUM.runtimeconfig.json
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\bin\Debug\net8.0\twoSUM.dll
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\bin\Debug\net8.0\twoSUM.pdb
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\twoSUM.dll
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\refint\twoSUM.dll
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\twoSUM.pdb
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\twoSUM.genruntimeconfig.cache
+C:\Users\Caio\Desktop\Docs\Web Develop\LeetCode\1.TwoSum\csharp\twoSUM\obj\Debug\net8.0\ref\twoSUM.dll
