@@ -27,9 +27,9 @@ s consists of parentheses only '()[]{}'.
  */
 namespace LeetCode
 {
-    class Program
+    class Program1
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             Console.WriteLine(IsValid("[()]"));
 
@@ -71,6 +71,51 @@ namespace LeetCode
                 }
             }
             //Apos iterar toda a string, verificamos se a stack esta vazia. Caso esteja, significa que todos os parenteses foram correspondidos. Caso nao esteja vazia, ha parenteses sem seu par, entao retornamos false;
+            return stack.Count == 0;
+        }
+    }
+
+    /* STARTING WITH OPEN PARENTESES NOW IN THE IF-ELSE STATEMENT */
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(IsValid("()[]{}"));
+
+        }
+
+        static bool IsValid(string s)
+        {
+            Dictionary<char, char> peers = new Dictionary<char, char>
+            {
+                {'{', '}'},
+                {'(', ')'},
+                {'[', ']'}
+            };
+
+            Stack<char> stack = new Stack<char>();
+
+            // "({})[]"
+            foreach (char charactere in s)
+            {
+                if (peers.ContainsKey(charactere))
+                {
+                    stack.Push(charactere);
+                }
+                else
+                {
+                    if (stack.Count == 0)
+                    {
+                        return false;
+                    }
+                    var topStackItem = stack.Pop();
+                    if (charactere != peers[topStackItem])
+                    {
+                        return false;
+                    }
+                }
+            }
             return stack.Count == 0;
         }
     }
