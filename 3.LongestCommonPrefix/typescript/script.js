@@ -13,5 +13,5 @@ var getPrefix = function (list) {
     }
     return prefix;
 };
-var result = getPrefix(["flower", "flow", "flight"]);
+var result = getPrefix(["flower", "fow", "flight"]);
 console.log("the prefix is: ".concat(result));

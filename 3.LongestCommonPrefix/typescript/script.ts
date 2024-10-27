@@ -9,12 +9,12 @@ const getPrefix = (list: string[]): string => {
     while (list[i].indexOf(prefix) != 0) {
       prefix = prefix.substring(0, prefix.length - 1);
       if (prefix == "") {
-        return "";
+        return ""; 
       }
     }
   }
   return prefix;
 };
 
-let result = getPrefix(["flower", "flow", "flight"]);
+let result = getPrefix(["flower", "fow", "flight"]);
 console.log(`the prefix is: ${result}`);
